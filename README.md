@@ -26,7 +26,7 @@ describe('mongoose test', () => {
     //   'outter.foo': 'bar',
     //   'subTasks.0.name': 'eat chocolate'
     //  }`.
-    mongoose.disconnect(done);
+    Todo.remove(toQueryCriteria(payload), done);
   });
   .
   .
