@@ -1,6 +1,6 @@
 {
   "name": "moar-mongoose-utils",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Mongoose utils.",
   "main": "index.js",
   "scripts": {
